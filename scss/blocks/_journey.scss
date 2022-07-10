@@ -1,0 +1,122 @@
+.journey {
+  background-color: #dbdbdb;
+}
+.journey__content {
+  padding: 75px 0 127px 0;
+}
+.journey__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.journey__title {
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9d8665;
+}
+.journey__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.video__museum {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.video__louvre {
+  margin-top: 75px;
+  margin-bottom: 40px;
+}
+.video__museum-play + .video__museum-play {
+  margin-left: 42px;
+}
+.video__list {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.video__item + .video__item {
+  margin-left: 20px;
+}
+@media only screen and (max-width: 1185px) {
+  .journey__text {
+    display: none;
+  }
+  .video__louvre {
+    width: 100%;
+    height: 550px;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .video__museum-play {
+    width: 280px;
+    height: 170px;
+  }
+  .video__museum-play + .video__museum-play {
+    margin-left: 22px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .journey__content {
+    padding: 40px 0 100px 0;
+  }
+  .video__museum-play + .video__museum-play {
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .video__louvre {
+    // width: 580px;
+    height: 300px;
+  }
+  .play {
+    display: none;
+  }
+  .video__museum-play {
+    width: 354px;
+    height: 199px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .video__louvre {
+    max-width: 100%;
+    height: 300px;
+  }
+  .journey__title {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .video__louvre {
+    width: 580px;
+    height: 200px;
+  }
+  .video__museum-play {
+    width: 250px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .video__museum-play {
+    width: 180px;
+    height: 101px;
+  }
+}
+@media only screen and (max-width: 405px) {
+  .video__museum-play {
+    width: 150px;
+    height: 101px;
+  }
+}

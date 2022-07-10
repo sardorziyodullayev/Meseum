@@ -1,0 +1,211 @@
+.tickets {
+  background-color: #dbdbdb;
+}
+.tickets__content {
+  padding: 75px 0 75px 0;
+}
+.tickets__inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tickets__title {
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9d8665;
+}
+.tickets__line {
+  margin-top: 25px;
+  margin-bottom: 75px;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #710707;
+  border-radius: 0px;
+}
+.tickets__choice {
+  display: flex;
+  align-items: flex-start;
+}
+.tickets__fieldset {
+  margin-left: 60px;
+  border: none;
+}
+.tickets__legend {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+}
+.tickets__input {
+  margin-bottom: 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+.amount__title {
+  margin-bottom: 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+}
+.amount__label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+.amount__button {
+  width: 150px;
+  height: 50px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+}
+.button {
+  margin-bottom: 50px;
+}
+.amount__strong {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 1.65px;
+  color: #000000;
+}
+.amount__buy {
+  margin-top: 60px;
+  padding: 10px 38px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  background: #000000;
+  color: #ffffff;
+  border-radius: 2px;
+  transition: 0.4s;
+}
+.amount__buy:hover {
+  color: #000000;
+  background-color: #9d8665;
+}
+@media only screen and (max-width: 1180px) {
+  .tickets__fieldset {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .tickets__image {
+    width: 700px;
+    height: 440px;
+  }
+  .tickets__title {
+    font-size: 65px;
+    line-height: 75px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .tickets__image {
+    width: 600px;
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .tickets__content {
+    padding: 40px 0 40px 0;
+  }
+  .tickets__image {
+    width: 444px;
+    height: 340px;
+  }
+  .tickets__title {
+    font-size: 50px;
+    line-height: 75px;
+  }
+  .tickets__line {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .tickets__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .tickets__image {
+    margin-bottom: 40px;
+    width: 400px;
+    height: 300px;
+  }
+  .amount__buy {
+    margin-top: 30px;
+  }
+  .button {
+    margin-bottom: 10px;
+  }
+  .amount__title {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .tickets__image {
+    width: 380px;
+    height: 160px;
+  }
+  .amount__title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .amount__label {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .amount__strong {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .tickets__title {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+@media only screen and (max-width: 415px){
+  .tickets__image {
+    width: 340px;
+    height: 130px;
+  }
+}

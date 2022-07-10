@@ -57,8 +57,11 @@
   color: #ffffff;
   background: #710707;
   border-radius: 10px;
+  transition: .4s;
 }
-
+.hero__link:hover {
+  background-color: #9d8665;
+}
 @media only screen and (max-width: 1180px) {
   .hero__inner {
     padding: 50px 0 192px;
@@ -128,7 +131,7 @@
     left: auto;
     right: auto;
     width: 550px;
-    height: 410px;
+    height: 390px;
   }
 }
 @media only screen and (max-width: 570px) {
@@ -158,8 +161,8 @@
     top: 140px;
   }
 }
-@media only screen and (max-width: 397px){
-  .hero__img{
+@media only screen and (max-width: 397px) {
+  .hero__img {
     top: 150px;
     width: 280px;
     height: 185px;
